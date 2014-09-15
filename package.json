@@ -1,0 +1,14 @@
+{
+  "name": "mt365",
+  "version": "0.0.0",
+  "description": "Toys for MT365",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test*js"
+  },
+  "author": "Jonathon Ramsey <jonathon.ramsey@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}

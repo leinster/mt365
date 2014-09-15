@@ -1,0 +1,14 @@
+{
+  "London": {
+    "Coventry": 100,
+    "Preston": 219,
+    "Leeds": 194
+  },
+  "Coventry": {
+    "Preston": 125,
+    "Leeds": 153
+  },
+  "Preston": {
+    "Leeds": 68
+  }
+}
