@@ -4,11 +4,16 @@
   "description": "Toys for MT365",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test*js"
+    "test": "mocha --reporter min test/test*js"
   },
   "author": "Jonathon Ramsey <jonathon.ramsey@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "sprintf": "^0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
   }
 }
