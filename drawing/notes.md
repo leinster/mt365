@@ -4,7 +4,7 @@
 
 Using `graph`, `graphdrawing` TikZ packages. Requires use of `lualatex` rather then `pdflatex`.
 
-Must specify the graph layout engine you want to use for automatic layout. Lots of options. The layout engine must be made available with a call to `\usegdlibrary` in the document prefix. Library options are:
+Must specify the graph layout engine you want to use for automatic layout. Lots of options. The layout engine must be made available with a call to `\usegdlibrary` in the document preamble. Library options are:
 
   - trees
   - layered
@@ -15,7 +15,7 @@ Must specify the graph layout engine you want to use for automatic layout. Lots 
 
 `circular` provides the simple necklace layout.
 
-    % for the document prefix
+    % for the document preamble
     \usepackage{tikz}
     \usetikzlibrary{snakes,arrows,shapes,graphs,graphdrawing,positioning}
     \usegdlibrary{trees, layered, force, circular}
